@@ -1,0 +1,34 @@
+body{
+    background-color: #48CFCB;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.container > h1 {
+    font-family: "Playwrite CU", cursive;
+}
+
+.player1, .player2 {
+    display: inline-block;
+    font-family: "Playwrite CU", cursive;
+    text-align: center;
+    margin: 20px;
+}
+
+.player1 img, .player2 img {
+    width: 100px; 
+    height: auto;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333; /* Change to your preferred color */
+    color: white;
+    position: relative;
+    bottom: 0;
+    
+    width: 100%;
+}
